@@ -15,3 +15,6 @@ please edit `enable_debug.sh` and `disable_debug.sh` paths as required for your 
 
 2. then deploy
 `make deploy`
+
+3. refresh the pod
+`kubectl delete pod -l app=mobile`
