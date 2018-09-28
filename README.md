@@ -9,3 +9,9 @@ please edit `enable_debug.sh` and `disable_debug.sh` paths as required for your 
 `PYCHARM_DEBUG_EGG`<br>
 `MOBILE_API_PROJECT_DIR`<br>
 `DEBUG_FILES_DIR`
+
+1. remove the service before you deploy as there will be new ports exposed
+`kbectl delete svc mobile-api`
+
+2. then deploy
+`make deploy`
