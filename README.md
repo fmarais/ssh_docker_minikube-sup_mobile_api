@@ -4,7 +4,7 @@
 
 `disable_debug.sh` will undo all the debug changes
 
-please edit `enable_debug.sh` and `disable_debug.sh` paths as required for your local env<br><br>
+please edit `enable_debug.sh` and `disable_debug.sh` paths as required for your local env<br>
 
 `PYCHARM_DEBUG_EGG`<br>
 `MOBILE_API_PROJECT_DIR`<br>
