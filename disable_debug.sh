@@ -16,8 +16,8 @@ mv "${MOBILE_API_PROJECT_DIR}/Dockerfile.backup" "${MOBILE_API_PROJECT_DIR}/Dock
 echo "mv ${MOBILE_API_PROJECT_DIR}/kubernetes/dev/service.yml.backup to ${MOBILE_API_PROJECT_DIR}/kubernetes/dev/service.yml"
 mv "${MOBILE_API_PROJECT_DIR}/kubernetes/dev/service.yml.backup" "${MOBILE_API_PROJECT_DIR}/kubernetes/dev/service.yml"
 
-# add debug egg
-echo "rm ${MOBILE_API_PROJECT_DIR}/pycharm-debug.egg"
-rm "${MOBILE_API_PROJECT_DIR}/pycharm-debug.egg"
+# debug egg
+echo "rm ${MOBILE_API_PROJECT_DIR}/src/pycharm-debug.egg"
+rm "${MOBILE_API_PROJECT_DIR}/src/pycharm-debug.egg"
 
 echo "Done!"
