@@ -25,6 +25,6 @@ echo "copy ${DEBUG_FILES_DIR}/Dockerfile to ${MOBILE_API_PROJECT_DIR}/Dockerfile
 cp "${DEBUG_FILES_DIR}/Dockerfile" "${MOBILE_API_PROJECT_DIR}/Dockerfile"
 
 echo "copy ${DEBUG_FILES_DIR}/service.yml to ${MOBILE_API_PROJECT_DIR}/kubernetes/dev/service.yml"
-cp "${DEBUG_FILES_DIR}/service.yml" "${MOBILE_API_PROJECT_DIR}/kubernetes/dev/service.ymld"
+cp "${DEBUG_FILES_DIR}/service.yml" "${MOBILE_API_PROJECT_DIR}/kubernetes/dev/service.yml"
 
 echo "Done!"
